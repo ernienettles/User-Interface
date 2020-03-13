@@ -49,7 +49,10 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: 100%;
+	padding: 0;
+	margin: 0;
 }
 
 html, body {
@@ -64,3 +67,115 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.navigation {
+	display: inline-block;
+	margin: 0 10%;
+	transition: 0.4s;
+	overflow: hidden;
+
+	
+}
+
+.navigation a {
+	padding: 0 84px;
+	color: dimgray;
+	text-decoration: none;
+}
+
+#title {
+	
+}
+
+.title-container {
+	margin: 10% 25%;
+}
+
+.title-container div {
+	display: inline-block;
+
+}
+
+.header1 h1{
+	width: 70%;
+	font-size: 100px;
+	text-align: center;
+	
+}
+
+.header2{
+	text-align: center;
+	margin-left: 6%;
+	border: 1px solid black;
+	padding: 10px 40px;
+}
+
+.header3 {
+	width: 60%;
+	margin-left: 70%;
+	margin-top: -50%;
+}
+
+#verticle-line {
+	width: 90%;
+	margin: 0 auto;
+	height: 1px;
+	background-color: black;
+}
+
+#verticle-line2 {
+	width: 90%;
+	margin: 0 auto;
+	height: 1px;
+	background-color: black;
+}
+
+#top-content div {
+	display:inline-block;
+	margin: auto 4%;
+}
+
+.top-content1 {
+	width: 40%;
+	padding: 50px;
+}
+
+.top-content2 {
+	width: 40%;
+	padding: 50px;
+}
+
+.middle-img {
+	display: block;
+	margin: 0 auto;
+}
+
+#bottom-content div {
+	display: inline-block;
+	margin: 3% 6%;
+}
+
+.bottom-content1 {
+	width: 20%;
+}
+
+.bottom-content2 {
+	width: 20%;
+}
+
+.bottom-content3 {
+	width: 20%;
+}
+
+#contact {
+	margin: 0 6%;
+}
+
+#contact a {
+	display: block;
+}
+
+footer {
+	margin: 5% 45%;
+}
